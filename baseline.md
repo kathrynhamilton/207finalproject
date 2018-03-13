@@ -1,4 +1,6 @@
-# Baseline Submission
+# W207 - Baseline Submission
+
+#### Kathryn Hamilton & Frank Shannon
 
 ## Problem
 
@@ -48,6 +50,15 @@ The team will then use an API to scrape novel synopsis information from Amazon.c
 
 ## Outline of Approach
 
-The team will use a variety of preprocessing techniques and a vectorizer to decompose the synopses. Then, the team must operationalize the definition of "success" as it pertains to the novels. This will be done using a combination of overall star rating, which on Amazon.com is 1-5, and an approximation of revenue, given by the price of the object and the number of reviews, which we assume to be proportional to the number of purchases. As this is a large assumption, the team will try to provide justification for it or find additional data to support or replace it.
+The team will use a variety of preprocessing techniques and a vectorizer to decompose the synopses and ratings. Then, the team must operationalize the definition of "success" as it pertains to the novels. This will be done using a combination of overall star rating, which on Amazon.com is 1-5, and an approximation of revenue, given by the price of the object and the number of reviews, which we assume to be proportional to the number of purchases. As this is a large assumption, the team will try to provide justification for it or find additional data to support or replace it. 
+
+A preliminary table of variables is described below.
+
+| Variable | Source and Description |
+| --- | ---|
+| X | book description, pulled from Amazon.com with API |
+| Y1 | rating text (sentiment), from UCSD dataset |
+| Y2 | star rating, from UCSD dataset |
+| Y3 | revenue? (price x ranking?), from UCSD dataset |
 
 Once the data has been collected and cleaned, the team will then select a supervised learning algorithm best suited to classify synopsis by level of success. The trained classifier can then (hopefully) be used to predict success of new novels based off of the information included in the synopsis.
