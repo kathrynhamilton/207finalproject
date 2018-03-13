@@ -12,7 +12,7 @@ The synopsis of a novel, a couple paragraphs of text found on the back or inside
 
 The data we will be using for this project come from two sources.
 
-The first is an online repository of `.json` files compiled by Julian McAuley, Assistant Professor of Computer Science and ENgineering at University of California, San Diego. These files, which can be found at `http://jmcauley.ucsd.edu/data/amazon/` will provides us with customer review information and product metadata
+The first is an online repository of `.json` files compiled by Julian McAuley, Assistant Professor of Computer Science and Engineering at University of California, San Diego. These files, which can be found at `http://jmcauley.ucsd.edu/data/amazon/` will provides us with customer review information and product metadata
 
 An example of a customer review entry is as follows:
 
